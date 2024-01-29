@@ -16,11 +16,10 @@
 
     <!--Notification Bar-->
     <div class="notification-bar-top" id="home">
-        <p id="paragraph-1">Sign In and get 20% discount in your first order!</p>
+        <p id="paragraph-1">Sign In and get 20% discount in your first order and many other benefits!</p>
     </div>
 
     <header class="header">
-
         <!-- Main LOGO -->
         <a href="#" class="logo">Seashella</a>
         
@@ -81,7 +80,7 @@
 
     <!-- IMAGE -->
     <div class="container">
-        <img class="main-image" src="../Images/sunset.jpg" alt="">
+        <img class="main-image" src="../Images/shark.jpg" alt="">
         <a href="#jewellery"><button class="btn">START SHOPPING NOW!</button></a>
     </div>
 
@@ -106,21 +105,21 @@
                 <img class="img-product-responsive" src="../Images/2.png" alt="">
                 <h1 class="product-description">Armlet pendant</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$14</span>
+                <span class="price">$13</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/3.png" alt="">
                 <h1 class="product-description">Pearl necklace</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$10</span>
+                <span class="price">$14</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/4.png" alt="">
                 <h1 class="product-description">Shell seastar</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$45</span>
+                <span class="price">$10</span>
             </div>
         </div>
 
@@ -129,28 +128,28 @@
                 <img class="img-product-responsive" src="../Images/5.png" alt="">
                 <h1 class="product-description">Silver pearl</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$8</span>
+                <span class="price">$11</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/6.png" alt="">
                 <h1 class="product-description">Shell seahorse</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$10</span>
+                <span class="price">$12</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/7.png" alt="">
                 <h1 class="product-description">Golden star</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$14</span>
+                <span class="price">$13</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/8.png" alt="">
                 <h1 class="product-description">Necklace seastar</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$6</span>
+                <span class="price">$10</span>
             </div>
         </div>
 
@@ -159,28 +158,28 @@
                 <img class="img-product-responsive" src="../Images/9.png" alt="">
                 <h1 class="product-description">Shell star</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$8</span>
+                <span class="price">$12</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/10.png" alt="">
                 <h1 class="product-description">Armlet pendant</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$6</span>
+                <span class="price">$10</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/11.png" alt="">
                 <h1 class="product-description">Pearl necklace</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$12</span>
+                <span class="price">$13</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/12.png" alt="">
                 <h1 class="product-description">Shell seastar</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$16</span>
+                <span class="price">$11</span>
             </div>
 
         </div>
@@ -196,21 +195,21 @@
                 <img class="img-product-responsive" src="../Images/14.png" alt="">
                 <h1 class="product-description">Sea star</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$14</span>
+                <span class="price">$10</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/15.png" alt="">
                 <h1 class="product-description">Necklace shell</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$12</span>
+                <span class="price">$13</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/16.png" alt="">
                 <h1 class="product-description">White golden</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$20</span>
+                <span class="price">$14</span>
             </div>
         </div>
     </section>
@@ -263,7 +262,7 @@
         <article class="footer-articles">
             <h1 class="footer-title-name">Contact</h1>
             <ul>
-                <li><i class="fa-solid fa-phone" style="color: #6d6654;"></i><a href=""> 402 106 207 316</a></li>
+                <li><i class="fa-solid fa-phone" style="color: #6d6654;"></i><a href=""> 61 106 207 316</a></li>
                 <li><i class="fa-solid fa-envelope" style="color: #6d6654;"></i><a href=""> Sheashella@gmail.com</a>
                 </li>
                 <li><i class="fa-solid fa-location-dot" style="color: #6d6654;"></i><a href=""> 8 MarlowStreet</a></li>
@@ -274,7 +273,7 @@
 
     <!-- Notification Bar -->
     <div class="notification-bar-bottom">
-        <p id="paragraph-1">Sign In and get 20% discount in your first order!</p>
+        <p id="paragraph-1">Sign In and get 20% discount in your first order and many other benefits!</p>
     </div>
 
 

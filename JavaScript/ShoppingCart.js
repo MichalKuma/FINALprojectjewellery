@@ -97,6 +97,7 @@ function addProductToCart(title, price, productImg) {
         }
     }
 
+    // HTML in JS: Class Functions
     var cartBoxContent = `
     <img src="${productImg}" alt="" class="cart-img">
     <div class="detail-box">

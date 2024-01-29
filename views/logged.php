@@ -87,24 +87,7 @@
         <div class="cart">
             <h2 class="cart-title">Your Cart</h2>
             <!-- Cart Content -->
-            <div class="cart-content">
-
-                <!-- Located in JS -->
-                <!--
-                <div class="cart-box">
-                    <img src="Images/1.png" alt="" class="cart-img">
-                    <div class="detail-box">
-                        <div class="cart-product-title">Shell</div>
-                        <div class="cart-price">$10</div>
-                        <input type="number" value="1" class="cart-quantity">
-                    </div>
-                    <! Remove Cart -->
-                <!--
-                    <i class="fa-solid fa-trash cart-remove"></i>
-                </div>
-            -->
-
-            </div>
+            <div class="cart-content"></div>
             
             <!-- Total -->
             <div class="total">
@@ -130,7 +113,7 @@
     </div>
 
     <hr class="hr-1">
-
+    
     <!-- JEWELLERY PRODUCTS -->
     <section class="background-cover">
         <div class="products-1">
@@ -139,29 +122,31 @@
                 <h1 class="product-description">Pearl pendant</h1>
                 <button class="add-to-cart">Add to cart</button>
                 <span><strike class="strike-prices">$12</strike></span>
-                <span class="price"> $8</span>
-                
+                <span class="price">$8</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/2.png" alt="">
                 <h1 class="product-description">Armlet pendant</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$14</span>
+                <span><strike class="strike-prices">$13</strike></span>
+                <span class="price">$9</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/3.png" alt="">
                 <h1 class="product-description">Pearl necklace</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$10</span>
+                <span><strike class="strike-prices">$14</strike></span>
+                <span class="price">$9</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/4.png" alt="">
                 <h1 class="product-description">Shell seastar</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$45</span>
+                <span><strike class="strike-prices">$10</strike></span>
+                <span class="price">$6</span>
             </div>
         </div>
 
@@ -170,28 +155,32 @@
                 <img class="img-product-responsive" src="../Images/5.png" alt="">
                 <h1 class="product-description">Silver pearl</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$8</span>
+                <span><strike class="strike-prices">$11</strike></span>
+                <span class="price">$7</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/6.png" alt="">
                 <h1 class="product-description">Shell seahorse</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$10</span>
+                <span><strike class="strike-prices">$12</strike></span>
+                <span class="price">$9</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/7.png" alt="">
                 <h1 class="product-description">Golden star</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$14</span>
+                <span><strike class="strike-prices">$13</strike></span>
+                <span class="price">$9</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/8.png" alt="">
                 <h1 class="product-description">Necklace seastar</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$6</span>
+                <span><strike class="strike-prices">$10</strike></span>
+                <span class="price">$7</span>
             </div>
         </div>
 
@@ -200,6 +189,7 @@
                 <img class="img-product-responsive" src="../Images/9.png" alt="">
                 <h1 class="product-description">Shell star</h1>
                 <button class="add-to-cart">Add to cart</button>
+                <span><strike class="strike-prices">$12</strike></span>
                 <span class="price">$8</span>
             </div>
 
@@ -207,6 +197,7 @@
                 <img class="img-product-responsive" src="../Images/10.png" alt="">
                 <h1 class="product-description">Armlet pendant</h1>
                 <button class="add-to-cart">Add to cart</button>
+                <span><strike class="strike-prices">$10</strike></span>
                 <span class="price">$6</span>
             </div>
 
@@ -214,14 +205,16 @@
                 <img class="img-product-responsive" src="../Images/11.png" alt="">
                 <h1 class="product-description">Pearl necklace</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$12</span>
+                <span><strike class="strike-prices">$13</strike></span>
+                <span class="price">$9</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/12.png" alt="">
                 <h1 class="product-description">Shell seastar</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$16</span>
+                <span><strike class="strike-prices">$11</strike></span>
+                <span class="price">$8</span>
             </div>
 
         </div>
@@ -230,28 +223,32 @@
                 <img class="img-product-responsive" src="../Images/13.png" alt="">
                 <h1 class="product-description">White pearl</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$12</span>
+                <span><strike class="strike-prices">$12</strike></span>
+                <span class="price">$8</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/14.png" alt="">
                 <h1 class="product-description">Sea star</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$14</span>
+                <span><strike class="strike-prices">$10</strike></span>
+                <span class="price">$7</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/15.png" alt="">
                 <h1 class="product-description">Necklace shell</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$12</span>
+                <span><strike class="strike-prices">$13</strike></span>
+                <span class="price">$9</span>
             </div>
 
             <div class="background-product">
                 <img class="img-product-responsive" src="../Images/16.png" alt="">
                 <h1 class="product-description">White golden</h1>
                 <button class="add-to-cart">Add to cart</button>
-                <span class="price">$20</span>
+                <span><strike class="strike-prices">$14</strike></span>
+                <span class="price">$9</span>
             </div>
         </div>
     </section>
@@ -313,6 +310,7 @@
         </article>
     </footer>
 
+    <!-- Notification Bar Bottom -->
     <div class="notification-bar-bottom">
         <p id="paragraph-1">Sign In and get 20% discount in your first order!</p>
     </div>

@@ -9,24 +9,24 @@ class Router
 {
     private $routes = [];
 
-    // Přidává novou trasu do routovacího systému
+    // Add a new route to the router
     public function addRoute($url, $controller, $method)
     {
         $this->routes[$url] = ['controller' => $controller, 'method' => $method];
     }
 
-    // Zpracovává aktuální URL a volá příslušný kontroler a metodu
+    // Processing actual URL and calling out the Controller
     public function dispatch($url)
     {
-        // Ověření existence trasy pro dané URL
+        // Open existing route for URL
         if (array_key_exists($url, $this->routes)) {
             $route = $this->routes[$url];
 
-            // Získání názvu kontroleru a metody
+            // Get a Name of Controller
             $controllerName = $route['controller'];
             $methodName = $route['method'];
 
-            // Vytvoření instance kontroleru
+            // Create Controller
             $controller = new $controllerName();
 
             $controller = new TestClass();

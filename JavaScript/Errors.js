@@ -1,17 +1,19 @@
-var email = document.forms['form']['username'];
+// USERNAME, PASSWORD ERRORS
+var username = document.forms['form']['username'];
 var password = document.forms['form']['password'];
 
-var email_error = document.getElementById('email_error');
+var username_error = document.getElementById('user_error');
 var pass_error = document.getElementById('pass_error');
 
-email.addEventListener('textInput', email_Verify);
+username.addEventListener('textInput', username_Verify);
 password.addEventListener('textInput', pass_Verify);
 
+// Function
 function validated() {
-    if (email.value.length < 9) {
-        email.style.border = "1px solid red";
-        email_error.style.display = "block";
-        email.focus();
+    if (username.value.length < 9) {
+        username.style.border = "1px solid red";
+        username_error.style.display = "block";
+        username.focus();
         return false;
     }
     if (password.value.length < 6) {
@@ -21,10 +23,10 @@ function validated() {
         return false;
     }
 }
-function email_Verify() {
-    if (email.value.length >= 8) {
-        email.style.border = "1px solid silver";
-        email_error.style.display = "none";
+function username_Verify() {
+    if (username.value.length >= 8) {
+        username.style.border = "1px solid silver";
+        username_error.style.display = "none";
         return true;
     }
 }

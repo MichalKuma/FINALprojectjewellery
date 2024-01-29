@@ -2,26 +2,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login</title>
-  <link rel="stylesheet" type="text/css" href="/projectjewellery/css/login.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="/projectjewellery/css/login.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
 <!-- Notification Bar -->
 <div class="notification-bar-top" id="home">
-        <p id="paragraph-1">Sign In and get 20% discount in your first order!</p>
+        <p id="paragraph-1">Sign In and get 20% discount in your first order and many other benefits!</p>
     </div>
 
 <!-- Header -->	
 <header class="header">
 <a href="index.php" class="logo">Seashella</a>
-
-<div class="user-icons">
-	<!-- User Icon -->
-	<a id="icon-user" href="login.html"><i class="fa-solid fa-user fa-lg" style="color: #bba35a;"></i></a>
-	<!-- Cart Icon -->
-	<i class="fa-solid fa-bag-shopping fa-lg" style="color: #bba35a;" id="cart-icon"></i>
-</div>
 
 <!-- Check box, Close icon -->
 <input type="checkbox" id="check">
@@ -39,18 +38,20 @@
 <?php include('errors.php'); ?>
   	
 <div class="login-form">
-            <label id="label-username" for="email">USERNAME</label><br>
+            <label id="label-username" for="username">USERNAME</label><br>
             <input autocomplete="off" type="text" name="username" placeholder="Username"><br><br>
 
-            <div id="email_error">Please fill up your Username</div>
+            <div id="user_error">Please fill up your Username</div>
 
             <label id="label-password" for="password">PASSWORD</label><br>
             <input type="password" name="password" placeholder="Password"><br><br>
 
             <div id="pass_error">Please fill up your Password</div>
 
+			<div class="remember-me">
             <input type="checkbox" name="rememberMe" id="rememberMe">
 			<label for ="rememberMe">Remember me</label>
+			</div>
 
             <div class="sign-in">
                 <button type="submit" class="sign-in" name="login_user">SIGN IN</button>
@@ -90,17 +91,17 @@
 <article class="footer-articles">
 	<h1 class="footer-title-name">Contact</h1>
 	<ul>
-		<li><i class="fa-solid fa-phone" style="color: #6d6654;"></i><a href=""> 402 106 207</a></li>
-		<li><i class="fa-solid fa-envelope" style="color: #6d6654;"></i><a href="">Sheashella@gmail.com</a></li>
+		<li><i class="fa-solid fa-phone" style="color: #6d6654;"></i><a href=""> 61 106 207 316</a></li>
+		<li><i class="fa-solid fa-envelope" style="color: #6d6654;"></i><a href=""> Sheashella@gmail.com</a></li>
 		<li><i class="fa-solid fa-location-dot" style="color: #6d6654;"></i><a href=""> 8 MarlowStreet</a></li>
 		<li><i class="fa-solid fa-city" style="color: #6d6654;"></i><a href=""> Western Australia 6002</a></li>
 	</ul>
 </article>
 </footer>
 
-<!-- Notification Bar -->
+<!-- Notification Bar Bottom -->
 <div class="notification-bar-bottom">
-<p id="paragraph-1">Sign In and get 20% discount in your first order!</p>
+<p id="paragraph-1">Sign In and get 20% discount in your first order and many other benefits!</p>
 </div>
 
 

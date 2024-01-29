@@ -949,11 +949,27 @@ body {
         right: 11px;
     }
 
+    .price-edit {
+        font-size: 14px;
+        font-weight: 400;
+        color: #c09821;
+        text-align: justify;
+        position: relative;
+        right: 8px;
+    }
+
     .strike-prices {
         font-size: 14px;
         color: red;
         position: relative;
         right: 11px;
+    }
+
+    .strike-prices-edit {
+        font-size: 14px;
+        color: red;
+        position: relative;
+        right: 8px;
     }
 
     .add-to-cart {
