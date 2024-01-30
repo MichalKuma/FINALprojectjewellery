@@ -1,3 +1,4 @@
+<!-- Getting Information From Login Pafe And Keeping It -->
 <?php 
   session_start(); 
 
@@ -30,11 +31,6 @@
     <div class="notification-bar-top" id="home">
         <p id="paragraph-1">Sign In and get 20% discount in your first order!</p>
     </div>
-
-<!-- Login Successful, Logout -->
-<!-- <div class="login-successful">
-	<h2>Login Successful</h2>
-</div> -->
 	
 <!-- Main Content -->
 <header class="header">
@@ -48,7 +44,7 @@
             <i class="fa-solid fa-bag-shopping fa-lg" style="color: #bba35a;" id="cart-icon"></i>
             <div class="welcome-user">
   	
-            <!-- Notification Message -->
+            <!-- Notification Message - Check If Matches -->
   	<?php if (isset($_SESSION['success'])) : ?>
       <div class="error success" >
       	<h3>
@@ -60,7 +56,7 @@
       </div>
   	<?php endif ?>
 
-    <!-- Logged in user information -->
+    <!-- Logged in user information - Success If Matches -->
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     	<p> <a href="logged.php?logout='1'" style="color: red;">logout</a> </p>
@@ -262,7 +258,6 @@
                 you know, I am passionate
                 about jewelry and I love creating unique and special pieces for my clients. But how does the process of
                 creating my jewelry really begin?
-
                 It all starts with inspiration. I am often inspired by nature, the textures and colors that I see around
                 me. For example, the Gaia earring inspired by the ocean, the Miranda earring inspired by the cow print,
                 or the Perla earring set in the white and translucent quartz print but to receive a distinctive and
@@ -291,10 +286,10 @@
         <article class="footer-articles">
             <h1 class="footer-title-name">Menu</h1>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Jewellery</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jewellery">Jewellery</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </article>
 

@@ -1,3 +1,20 @@
+<?php
+if(isset($_POST["login_user"]))
+{
+	if(isset($_POST["ch1"]))
+    {
+    setcookie("unm", $_POST["username"],time()+3600);
+	setcookie("pwd", $_POST["password"],time()+3600);
+	}
+?>	
+<script type="text/javascript">
+	window.location="logged.php";
+</script>
+<?php
+}
+?>
+
+
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
@@ -36,7 +53,6 @@
 	<p>Login</p>
 </div><br>
 <?php include('errors.php'); ?>
-  	
 <div class="login-form">
             <label id="label-username" for="username">USERNAME</label><br>
             <input autocomplete="off" type="text" name="username" placeholder="Username"><br><br>
@@ -49,7 +65,7 @@
             <div id="pass_error">Please fill up your Password</div>
 
 			<div class="remember-me">
-            <input type="checkbox" name="rememberMe" id="rememberMe">
+            <input type="checkbox" name="ch1" value="ch" id="rememberMe">
 			<label for ="rememberMe">Remember me</label>
 			</div>
 

@@ -36,9 +36,7 @@
   <div class="create-account-title">
 	<p>Create Account</p>
 </div><br>
-  	
-<?php include('errors.php'); ?>
-  	
+  	<?php include('errors.php'); ?> 	
     <div>
 	  <label id="label-username" for="username">USERNAME</label><br>
   	  <input type="text" name="username" placeholder="Username" value="<?php echo $username; ?>">

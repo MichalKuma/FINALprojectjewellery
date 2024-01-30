@@ -25,9 +25,10 @@
         
         <!-- User Icons -->
         <div class="user-icons">
-            <a id="icon-user" href="/projectjewellery/views/login.php"><i class="fa-solid fa-user fa-lg" style="color: #bba35a;"></i></a>
+           <a id="icon-user" href="/projectjewellery/views/login.php"><i class="fa-solid fa-user fa-lg" style="color: #bba35a;"></i></a>
            <!-- Cart Icon -->
-           <i class="fa-solid fa-bag-shopping fa-lg" style="color: #bba35a;" id="cart-icon"></i></div>
+           <i class="fa-solid fa-bag-shopping fa-lg" style="color: #bba35a;" id="cart-icon"></i>
+        </div>
        
         <!-- Check box, Close icon -->
         <input type="checkbox" id="check">
@@ -263,8 +264,7 @@
             <h1 class="footer-title-name">Contact</h1>
             <ul>
                 <li><i class="fa-solid fa-phone" style="color: #6d6654;"></i><a href=""> 61 106 207 316</a></li>
-                <li><i class="fa-solid fa-envelope" style="color: #6d6654;"></i><a href=""> Sheashella@gmail.com</a>
-                </li>
+                <li><i class="fa-solid fa-envelope" style="color: #6d6654;"></i><a href=""> Sheashella@gmail.com</a></li>
                 <li><i class="fa-solid fa-location-dot" style="color: #6d6654;"></i><a href=""> 8 MarlowStreet</a></li>
                 <li><i class="fa-solid fa-city" style="color: #6d6654;"></i><a href=""> Western Australia 6002</a></li>
             </ul>
