@@ -1,3 +1,4 @@
+<!-- Remember me -->
 <?php
 if(isset($_POST["login_user"]))
 {
@@ -12,6 +13,15 @@ if(isset($_POST["login_user"]))
 </script>
 <?php
 }
+?>
+
+
+<!-- REMEMBER ME Working on it -->
+<?php
+/*
+value="<?php echo $_COOKIE["unm"] ?>"  // Value for LOGIN FORM Input Username
+value="<?php echo $_COOKIE["pwd"] ?>"  // Value for LOGIN FORM Input Password
+*/
 ?>
 
 
@@ -39,7 +49,7 @@ if(isset($_POST["login_user"]))
 <header class="header">
 <a href="index.php" class="logo">Seashella</a>
 
-<!-- Check box, Close icon -->
+<!-- Check box, Close icon --> 
 <input type="checkbox" id="check">
 <label for="check" class="icons">
 	<i class='bx bx-menu' id="menu-icon"></i>
